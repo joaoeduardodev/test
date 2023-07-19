@@ -19,10 +19,6 @@ $result = findMissingCards($cards);
 print_r($result); // Saída esperada: [2002, 2006]
 ```
 
-Dicas:
 
-Você pode percorrer o array de cartões e verificar se o próximo número está faltando em relação ao número atual. Se estiver faltando, adicione-o a um novo array.
-Os cartões que estão faltando estarão entre o número mínimo e o número máximo do array, mas não estarão presentes no array original.
-Observação:
 
 Certifique-se de implementar a função findMissingCards() completa. Inclua a definição da função e o código necessário para testá-la com os exemplos de uso fornecidos.
